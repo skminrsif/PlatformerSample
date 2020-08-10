@@ -3,8 +3,7 @@
 --- !u!1 &8328362497138939507
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517919, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -26,8 +25,7 @@ GameObject:
 --- !u!4 &8328362497138939509
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517913, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
@@ -41,8 +39,7 @@ Transform:
 --- !u!212 &8328362497138939508
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517912, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
@@ -94,8 +91,7 @@ SpriteRenderer:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517914, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
@@ -115,8 +111,7 @@ Rigidbody2D:
 --- !u!61 &8328362497138939511
 BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517915, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
@@ -142,8 +137,7 @@ BoxCollider2D:
 --- !u!114 &8328362497138939465
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517925, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
@@ -153,13 +147,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &8328362497138939464
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517924, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
@@ -176,8 +169,7 @@ MonoBehaviour:
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8004234399274517926, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328362497138939507}
