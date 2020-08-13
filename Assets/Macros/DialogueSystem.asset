@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: DialogueSystem
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-54.61774,"y":-782593.2},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"d8241d93-334d-4dc1-b573-83510e136e83","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"name":{"$content":"Next","$type":"System.String"}},"position":{"x":-204.0,"y":-144.0},"guid":"a2896ed0-2a05-4136-aa76-cef915270525","$version":"A","$type":"Bolt.BoltUnityEvent"}],"$version":"A"}}'
+    _objectReferences: []
