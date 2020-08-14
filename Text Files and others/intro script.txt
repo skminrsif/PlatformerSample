@@ -1,0 +1,109 @@
+	*Dragon roars*
+
+Dragon
+	Foolish knights! You can never defeat me!
+
+Knight 1
+	Famous last words, [insert Dragon name]. We, the dragon hunters, will prevail. Quick, [insert Knight 2 name]! Cast
+		the spell of damnation onto this beast!
+
+	*Knight 2 starts casting spell*
+
+Dragon
+	Heh. Your unwwise decision is now about to bring you into the destruction that you have wished upon me.
+	MINIONS!
+
+	*Minions start to appear at the sides of the screen*
+	
+Dragon 
+	Today is your lucky day! Attack these puny knights, and feast upon their flesh! <During this dialogue, minions
+	will inch to the middle of the screen, surrounding the nights(probably 3-4 seconds of "walking")>
+
+Knight 1
+	Curses! [insert Knight 2 name], is the spell nearly completed?
+
+Knight 2
+	No, not yet!
+	
+	<Minions start to attack Knight 2>
+
+Knight 2
+	Come, help me fend off these beasts!
+
+*tutorial*
+
+Dragon
+	Any last words, o great fragile champions?
+
+*The two knights on their knees, swords stuck on the ground.*
+
+Dragon
+	Hmmm...
+
+*empty dialogue box*
+
+*empty dialogue box*
+
+Dragon
+	You know what...
+
+*empty dialogue box*
+
+*empty dialogue box*
+
+Dragon
+	My father used to cook this delicious ramen...
+
+Minions
+	Delicious ramen! Delicious ramen!
+
+Dragon
+	If I remember correctly, one of the delectable ingredients that he used was...
+
+Minions
+	Ingredients, ingredients! Delectable ingredients!
+
+Knight 2
+	Dear heavens, no...
+
+Dragon
+	DRAGON HUNTER MEAT!
+
+Knight 1
+	God, save us...
+
+Dragon
+	Minions! Take them to the dungeons, while I prepare the other ingredients!
+
+*in the dungeons*
+
+Minions
+	HAHAHA! RAMEN RAMEN RAMEN!
+
+*Minions throw the two knights in a jail cell*
+
+*Knight 1 bursts out crying*
+
+Knight 1
+	I don't want to be ramen!!
+
+Knight 2
+	And I, as well.
+
+*empty dialogue box*
+
+*empty dialogue box*
+
+Knight 2
+	We must get out of here. Fast.
+
+*Knight 1 stands up*
+
+Knight 1
+	Okay..let's go.
+
+*gameplay starts here*
+
+
+
+	
