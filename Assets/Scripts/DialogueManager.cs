@@ -26,7 +26,7 @@ public class DialogueManager : MonoBehaviour {
 
     public void StartDialogue(Dialogue dialogue) {
 
-        nameText.text = dialogue.name;
+        // nameText.text = dialogue.name;
         
 
         // sentences.Clear();
