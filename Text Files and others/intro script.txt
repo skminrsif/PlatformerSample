@@ -1,0 +1,114 @@
+	*Oodun roars*  - 0
+
+Oodun
+	Foolish knights! You can never defeat me! - 1
+
+Knight 1
+	Famous last words, Oodun. We, the dragon hunters, will prevail. - 2 
+	Quick, [insert Knight 2 name]! Cast the spell of damnation onto this beast!  - 3
+
+	*Knight 2 starts casting spell*  - 4
+
+Dragon
+	Heh. - 5 
+	Your unwwise decision is now about to bring you into the destruction that you have wished upon me. - 6
+	MINIONS!  - 7
+
+	*Minions start to appear at the sides of the screen*  - 8
+	
+Dragon 
+	Today is your lucky day! Attack these puny knights, and feast upon their flesh! <During this dialogue, minions
+	will inch to the middle of the screen, surrounding the nights(probably 3-4 seconds of "walking")>  - 9
+
+Knight 1 
+	Curses!  - 10
+	[insert Knight 2 name], is the spell nearly completed?  - 11
+
+Knight 2
+	No, not yet!  - 12
+	
+	<Minions start to attack Knight 2>  
+
+Knight 2
+	Come, help me fend off these beasts!  - 13
+
+
+* black screen *
+
+
+Dragon
+	Any last words, o great fragile champions?  - 14
+
+*The two knights on their knees, swords stuck on the ground.*  - 15
+
+Dragon
+	Hmmm...  - 16
+
+*empty dialogue box*   - 17
+
+*empty dialogue box*  - 18
+
+Dragon 
+	You know what...   - 19
+
+*empty dialogue box*   - 20
+
+*empty dialogue box*  - 21
+
+Dragon
+	My father used to cook this delicious ramen...   - 22
+
+Minions
+	Delicious ramen! Delicious ramen!  - 23
+Dragon
+	If I remember correctly, one of the delectable ingredients that he used was...  - 24
+
+Minions
+	Ingredients, ingredients! Delectable ingredients!  - 25
+
+Knight 2
+	Dear heavens, no...  - 26
+
+Dragon
+	DRAGON HUNTER MEAT!  - 27
+
+Knight 1
+	God, save us... - 28
+
+Dragon
+	Minions! Take them to the dungeons, while I prepare the other ingredients!  - 29
+
+*in the dungeons*
+
+Minions
+	HAHAHA! RAMEN RAMEN RAMEN!  - 30
+
+*Minions throw the two knights in a jail cell*
+
+*Knight 1 bursts out crying*  - 31
+ 
+Knight 1
+	I don't want to be ramen!!  - 32
+
+Knight 2
+	And I, as well.  - 33
+
+*empty dialogue box*  - 34
+
+*empty dialogue box*  - 35
+
+Knight 2
+	We must get out of here. Fast.  - 36
+
+*Knight 1 stands up*  - 37
+
+Knight 1
+	Okay..let's go.  - 38
+
+*gameplay starts here*
+
+
+
+
+
+	
