@@ -2356,9 +2356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 9cf3d6f68e8494249b3110297e41ebea, type: 2}
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1444414938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2372,7 +2371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"NextScene","value":{"$content":"CreditsSampleScene","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!212 &1444414939
 SpriteRenderer:
@@ -2476,6 +2475,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1511ccae7919cfc46b603b9b337fdc94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1883301178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8328362497126234829, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+    type: 3}
+  m_PrefabInstance: {fileID: 8328362497794516520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1908595602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,6 +2616,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8328362497138939464, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328362497138939464, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328362497138939464, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: e18ed084f526ffa4aa671a68a7208b9f,
+        type: 2}
+    - target: {fileID: 8328362497138939465, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328362497138939465, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"Sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328362497138939465, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1883301178}
     - target: {fileID: 8328362497138939507, guid: 0e8eb63cfa705834ebe5894475f8ccbb,
         type: 3}
       propertyPath: m_Name
