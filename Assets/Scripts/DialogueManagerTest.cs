@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManagerTest : MonoBehaviour
 {
@@ -106,6 +107,8 @@ public class DialogueManagerTest : MonoBehaviour
     {
 
         Debug.Log("End of convo.");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    
 
     }
 }
