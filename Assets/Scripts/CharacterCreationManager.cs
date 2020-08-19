@@ -8,6 +8,9 @@ public class CharacterCreationManager : MonoBehaviour {
     // Start is called before the first frame update
 
     // private string currentSpriteName;
+
+    private int turn; // 0 = player one, 1 = player two
+
     private GameObject playerOne_redSprite;
     private GameObject playerOne_blueSprite;
     private GameObject playerOne_greenSprite;
@@ -18,8 +21,10 @@ public class CharacterCreationManager : MonoBehaviour {
     private GameObject playerTwo_greenSprite;
     private GameObject playerTwo_yellowSprite;
 
-    void Start()
+    public void Start()
     {
+        turn = 0;
+
         playerOne_redSprite = GameObject.Find("playerOne_redKnight");
         playerOne_blueSprite = GameObject.Find("playerOne_blueKnight");
         playerOne_greenSprite = GameObject.Find("playerOne_greenKnight");
