@@ -5,24 +5,24 @@ Oodun
 
 Knight 1
 	Famous last words, Oodun. We, the dragon hunters, will prevail. - 2 
-	Quick, [insert Knight 2 name]! Cast the spell of damnation onto this beast!  - 3
+	Quick, the spell! Cast the spell of damnation onto this beast!  - 3
 
 	*Knight 2 starts casting spell*  - 4
 
-Dragon
+Oodun
 	Heh. - 5 
 	Your unwwise decision is now about to bring you into the destruction that you have wished upon me. - 6
 	MINIONS!  - 7
 
 	*Minions start to appear at the sides of the screen*  - 8
 	
-Dragon 
+Oodun 
 	Today is your lucky day! Attack these puny knights, and feast upon their flesh! <During this dialogue, minions
 	will inch to the middle of the screen, surrounding the nights(probably 3-4 seconds of "walking")>  - 9
 
 Knight 1 
 	Curses!  - 10
-	[insert Knight 2 name], is the spell nearly completed?  - 11
+	Good sir, is the spell nearly completed?  - 11
 
 Knight 2
 	No, not yet!  - 12
@@ -36,31 +36,31 @@ Knight 2
 * black screen *
 
 
-Dragon
+Oodun
 	Any last words, o great fragile champions?  - 14
 
 *The two knights on their knees, swords stuck on the ground.*  - 15
 
-Dragon
+Oodun
 	Hmmm...  - 16
 
 *empty dialogue box*   - 17
 
 *empty dialogue box*  - 18
 
-Dragon 
+Oodun 
 	You know what...   - 19
 
 *empty dialogue box*   - 20
 
 *empty dialogue box*  - 21
 
-Dragon
+Oodun
 	My father used to cook this delicious ramen...   - 22
 
 Minions
 	Delicious ramen! Delicious ramen!  - 23
-Dragon
+Oodun
 	If I remember correctly, one of the delectable ingredients that he used was...  - 24
 
 Minions
@@ -69,13 +69,13 @@ Minions
 Knight 2
 	Dear heavens, no...  - 26
 
-Dragon
+Oodun
 	DRAGON HUNTER MEAT!  - 27
 
 Knight 1
 	God, save us... - 28
 
-Dragon
+Oodun
 	Minions! Take them to the dungeons, while I prepare the other ingredients!  - 29
 
 *in the dungeons*
