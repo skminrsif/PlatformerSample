@@ -346,8 +346,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e18ed084f526ffa4aa671a68a7208b9f, type: 2}
 --- !u!95 &8328362497138939466
 Animator:
   serializedVersion: 3
