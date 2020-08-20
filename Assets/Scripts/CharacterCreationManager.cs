@@ -9,7 +9,7 @@ public class CharacterCreationManager : MonoBehaviour {
 
     // private string currentSpriteName;
 
-    private int turn; // 0 = player one, 1 = player two
+   // private int turn; // 0 = player one, 1 = player two
 
     private GameObject playerOne_redSprite;
     private GameObject playerOne_blueSprite;
@@ -21,9 +21,22 @@ public class CharacterCreationManager : MonoBehaviour {
     private GameObject playerTwo_greenSprite;
     private GameObject playerTwo_yellowSprite;
 
+    private GameObject playerTwo_confirm;
+    private GameObject playerTwo_rightScroll;
+    private GameObject playerTwo_leftScroll;
+
+    private GameObject playerOne_confirm;
+    private GameObject playerOne_rightScroll;
+    private GameObject playerOne_leftScroll;
+
+    private string playerOne_selection;
+    private string playerTwo_selection;
+
     public void Start()
     {
-        turn = 0;
+       // turn = 0;
+
+        // player one sprites
 
         playerOne_redSprite = GameObject.Find("playerOne_redKnight");
         playerOne_blueSprite = GameObject.Find("playerOne_blueKnight");
@@ -34,15 +47,39 @@ public class CharacterCreationManager : MonoBehaviour {
         playerOne_greenSprite.SetActive(false);
         playerOne_yellowSprite.SetActive(false);
 
+        // player two sprites
+
         playerTwo_redSprite = GameObject.Find("playerTwo_redKnight");
         playerTwo_blueSprite = GameObject.Find("playerTwo_blueKnight");
         playerTwo_greenSprite = GameObject.Find("playerTwo_greenKnight");
         playerTwo_yellowSprite = GameObject.Find("playerTwo_yellowKnight");
 
+        playerTwo_redSprite.SetActive(false);
         playerTwo_blueSprite.SetActive(false);
         playerTwo_greenSprite.SetActive(false);
         playerTwo_yellowSprite.SetActive(false);
 
+        // player one buttons
+
+        playerOne_confirm = GameObject.Find("playerOne_confirm");
+        playerOne_confirm.GetComponent<Button>().interactable = true;
+
+        playerOne_leftScroll = GameObject.Find("playerOne_leftScroll");
+        playerOne_rightScroll = GameObject.Find("playerOne_rightScroll");
+
+        playerOne_leftScroll.GetComponent<Button>().interactable = true;
+        playerOne_rightScroll.GetComponent<Button>().interactable = true;
+
+        // player two buttons
+
+        playerTwo_confirm = GameObject.Find("playerTwo_confirm");
+        playerTwo_confirm.GetComponent<Button>().interactable = false;
+
+        playerTwo_leftScroll = GameObject.Find("playerTwo_leftScroll");
+        playerTwo_rightScroll = GameObject.Find("playerTwo_rightScroll");
+
+        playerTwo_leftScroll.GetComponent<Button>().interactable = false;
+        playerTwo_rightScroll.GetComponent<Button>().interactable = false;
 
     }
 
@@ -80,39 +117,150 @@ public class CharacterCreationManager : MonoBehaviour {
 
     }
 
-    public void PlayerTwoDisplayNextSprite() {
 
-        //for player two
+    public void PlayerOneConfirm() {
 
-        if (playerTwo_redSprite.activeInHierarchy)
-        { // if red active, disable it, then enable blue
+        playerOne_leftScroll.GetComponent<Button>().interactable = false;
+        playerOne_rightScroll.GetComponent<Button>().interactable = false;
+        playerOne_confirm.GetComponent<Button>().interactable = false;
 
+        playerTwo_confirm.GetComponent<Button>().interactable = true;
+        playerTwo_leftScroll.GetComponent<Button>().interactable = true;
+        playerTwo_rightScroll.GetComponent<Button>().interactable = true;
+        playerOne_selection = GameObject.FindGameObjectWithTag("PlayerOneSprites").name;
+        // Debug.Log("Turn : " + turn);
+        Debug.Log("Player One : " + playerOne_selection);
+
+
+        if (GameObject.FindGameObjectWithTag("PlayerOneSprites").name == "playerOne_redKnight") {
+
+            // Debug.Log("It is working");
             playerTwo_redSprite.SetActive(false);
             playerTwo_blueSprite.SetActive(true);
-
-        }
-        else if (playerTwo_blueSprite.activeInHierarchy)
+          
+        } else if (GameObject.FindGameObjectWithTag("PlayerOneSprites").name == "playerOne_blueKnight")
         {
 
+            // Debug.Log("It is working");
             playerTwo_blueSprite.SetActive(false);
-            playerTwo_greenSprite.SetActive(true);
+            playerTwo_redSprite.SetActive(true);
 
-        }
-        else if (playerTwo_greenSprite.activeInHierarchy)
+        } else if (GameObject.FindGameObjectWithTag("PlayerOneSprites").name == "playerOne_greenKnight")
         {
 
+            // Debug.Log("It is working");
             playerTwo_greenSprite.SetActive(false);
-            playerTwo_yellowSprite.SetActive(true);
+            playerTwo_redSprite.SetActive(true);
 
-        }
-        else
+        } else if (GameObject.FindGameObjectWithTag("PlayerOneSprites").name == "playerOne_yellowKnight")
         {
 
+            // Debug.Log("It is working");
             playerTwo_yellowSprite.SetActive(false);
             playerTwo_redSprite.SetActive(true);
 
         }
 
+
+    }
+   
+    public void PlayerTwoDisplayNextSprite() {
+
+        if (playerOne_selection == "playerOne_redKnight") {
+            
+                if (playerTwo_blueSprite.activeInHierarchy)
+                {
+
+                    playerTwo_blueSprite.SetActive(false);
+                    playerTwo_greenSprite.SetActive(true);
+
+                }
+                else if (playerTwo_greenSprite.activeInHierarchy) {
+
+                    playerTwo_greenSprite.SetActive(false);
+                    playerTwo_yellowSprite.SetActive(true);
+
+                } else if (playerTwo_yellowSprite.activeInHierarchy)
+                {
+                    playerTwo_yellowSprite.SetActive(false);
+                    playerTwo_blueSprite.SetActive(true);
+
+                }
+                
+            } else if (playerOne_selection == "playerOne_blueKnight")
+        {
+
+            if (playerTwo_redSprite.activeInHierarchy)
+            {
+
+                playerTwo_redSprite.SetActive(false);
+                playerTwo_greenSprite.SetActive(true);
+
+            }
+            else if (playerTwo_greenSprite.activeInHierarchy)
+            {
+
+                playerTwo_greenSprite.SetActive(false);
+                playerTwo_yellowSprite.SetActive(true);
+
+            }
+            else if (playerTwo_yellowSprite.activeInHierarchy)
+            {
+                playerTwo_yellowSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
+
+        } else if (playerOne_selection == "playerOne_greenKnight")
+        {
+
+            if (playerTwo_redSprite.activeInHierarchy)
+            {
+
+                playerTwo_redSprite.SetActive(false);
+                playerTwo_blueSprite.SetActive(true);
+
+            }
+            else if (playerTwo_blueSprite.activeInHierarchy)
+            {
+
+                playerTwo_blueSprite.SetActive(false);
+                playerTwo_yellowSprite.SetActive(true);
+
+            }
+            else if (playerTwo_yellowSprite.activeInHierarchy)
+            {
+                playerTwo_yellowSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
+
+        } else if (playerOne_selection == "playerOne_yellowKnight")
+        {
+
+            if (playerTwo_redSprite.activeInHierarchy)
+            {
+
+                playerTwo_redSprite.SetActive(false);
+                playerTwo_blueSprite.SetActive(true);
+
+            }
+            else if (playerTwo_blueSprite.activeInHierarchy)
+            {
+
+                playerTwo_blueSprite.SetActive(false);
+                playerTwo_greenSprite.SetActive(true);
+
+            }
+            else if (playerTwo_greenSprite.activeInHierarchy)
+            {
+                playerTwo_greenSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
+
+        }
+        
     }
 
 
@@ -150,43 +298,127 @@ public class CharacterCreationManager : MonoBehaviour {
         }
 
     }
-
+    
     public void PlayerTwoDisplayBackSprite() {
 
-        // for player two :
-
-        if (playerTwo_yellowSprite.activeInHierarchy)
+        if (playerOne_selection == "playerOne_redKnight")
         {
 
-            playerTwo_yellowSprite.SetActive(false);
-            playerTwo_greenSprite.SetActive(true);
+            if (playerTwo_blueSprite.activeInHierarchy)
+            {
+
+                playerTwo_blueSprite.SetActive(false);
+                playerTwo_yellowSprite.SetActive(true);
+
+            }
+            else if (playerTwo_yellowSprite.activeInHierarchy)
+            {
+
+                playerTwo_yellowSprite.SetActive(false);
+                playerTwo_greenSprite.SetActive(true);
+
+            }
+            else if (playerTwo_greenSprite.activeInHierarchy)
+            {
+                playerTwo_greenSprite.SetActive(false);
+                playerTwo_blueSprite.SetActive(true);
+
+            }
 
         }
-        else if (playerTwo_greenSprite.activeInHierarchy)
+        else if (playerOne_selection == "playerOne_blueKnight")
         {
 
-            playerTwo_greenSprite.SetActive(false);
-            playerTwo_blueSprite.SetActive(true);
+            if (playerTwo_redSprite.activeInHierarchy)
+            {
+
+                playerTwo_redSprite.SetActive(false);
+                playerTwo_yellowSprite.SetActive(true);
+
+            }
+            else if (playerTwo_yellowSprite.activeInHierarchy)
+            {
+
+                playerTwo_yellowSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
+            else if (playerTwo_greenSprite.activeInHierarchy)
+            {
+                playerTwo_greenSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
 
         }
-        else if (playerTwo_blueSprite.activeInHierarchy)
+        else if (playerOne_selection == "playerOne_greenKnight")
         {
 
-            playerTwo_blueSprite.SetActive(false);
-            playerTwo_redSprite.SetActive(true);
+            if (playerTwo_redSprite.activeInHierarchy)
+            {
+
+                playerTwo_redSprite.SetActive(false);
+                playerTwo_yellowSprite.SetActive(true);
+
+            }
+            else if (playerTwo_yellowSprite.activeInHierarchy)
+            {
+
+                playerTwo_yellowSprite.SetActive(false);
+                playerTwo_blueSprite.SetActive(true);
+
+            }
+            else if (playerTwo_blueSprite.activeInHierarchy)
+            {
+                playerTwo_blueSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
 
         }
-        else
+        else if (playerOne_selection == "playerOne_yellowKnight")
         {
 
-            playerTwo_redSprite.SetActive(false);
-            playerTwo_yellowSprite.SetActive(true);
+            if (playerTwo_redSprite.activeInHierarchy)
+            {
+
+                playerTwo_redSprite.SetActive(false);
+                playerTwo_greenSprite.SetActive(true);
+
+            }
+            else if (playerTwo_greenSprite.activeInHierarchy)
+            {
+
+                playerTwo_greenSprite.SetActive(false);
+                playerTwo_blueSprite.SetActive(true);
+
+            }
+            else if (playerTwo_blueSprite.activeInHierarchy)
+            {
+                playerTwo_blueSprite.SetActive(false);
+                playerTwo_redSprite.SetActive(true);
+
+            }
 
         }
+
 
     }
-   
 
-   
-    
+
+    public void PlayerTwoConfirm()
+    {
+        playerTwo_confirm.GetComponent<Button>().interactable = false;
+        playerTwo_leftScroll.GetComponent<Button>().interactable = false;
+        playerTwo_rightScroll.GetComponent<Button>().interactable = false;
+
+        playerTwo_selection = GameObject.FindGameObjectWithTag("PlayerTwoSprites").name;
+        Debug.Log("Player Two : " + playerTwo_selection);
+
+
+    }
+
+
+
+
 }
