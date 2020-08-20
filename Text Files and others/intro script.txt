@@ -11,7 +11,7 @@ Knight 1
 
 Oodun
 	Heh. - 5 
-	Your unwwise decision is now about to bring you into the destruction that you have wished upon me. - 6
+	Your unwise decision is now about to bring you into the destruction that you have wished upon me. - 6
 	MINIONS!  - 7
 
 	*Minions start to appear at the sides of the screen*  - 8
