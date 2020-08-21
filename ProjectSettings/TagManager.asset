@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerOneSprites
   - PlayerTwoSprites
+  - IntroImages
   layers:
   - Default
   - TransparentFX

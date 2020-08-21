@@ -9,6 +9,7 @@ public class Dialogue {
     public string[] names;
     [TextArea(1, 7)]
     public string[] sentences;
+    public int[] images;
     
 
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharacterCreationManager : MonoBehaviour {
 
@@ -414,6 +415,8 @@ public class CharacterCreationManager : MonoBehaviour {
 
         playerTwo_selection = GameObject.FindGameObjectWithTag("PlayerTwoSprites").name;
         Debug.Log("Player Two : " + playerTwo_selection);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
     }
